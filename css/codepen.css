@@ -180,7 +180,7 @@ body {
 }
 
 .prism-shape {
-  transform: scale(1.7); /* Increase to 150% size */
+  transform: scale(1.9); /* Increase to 150% size */
 
   width: 150px;
   height: 150px;
