@@ -74,7 +74,7 @@ $(function () {
   // 5. owl carousel slider
   // 5.1. owl sections carousel slider
   $(
-    "#about-section-carousel, #works-section-carousel, #news-section-carousel, #contact-section-carousel"
+    "#works-section-carousel, #news-section-carousel, #contact-section-carousel"
   ).owlCarousel({
     loop: true,
     center: false,
