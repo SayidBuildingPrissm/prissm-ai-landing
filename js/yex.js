@@ -1,34 +1,3 @@
-/*
-  [JS Index]
-  
-  ---
-  
-  Template Name: Yex - One Page Portfolio Template
-  Author:  ex-nihilo
-  Version: 1.0
-*/
-
-/*
-  1. preloader
-  2. slick slider
-    2.1. slick fullscreen slideshow ZOOM/FADE
-  3. fullPage
-  4. YouTube player
-  5. owl carousel slider
-    5.1. owl sections carousel slider
-	5.2. owl team carousel slider
-	5.3. owl works carousel slider
-  6. magnificPopup
-    6.1. magnificPopup works gallery
-	6.2. magnificPopup works gallery slider
-  7. swiper slider
-    7.1. swiper slider
-  8. navigation
-    8.1. close navigation
-  9. featured news MORE
-  10. featured news MORE reset
-*/
-
 $(function () {
   "use strict";
 
@@ -58,10 +27,10 @@ $(function () {
 
   // 3. fullPage
   $("#fullpage").fullpage({
-    anchors: ["home", "about", "works", "news", "contact"],
+    anchors: ["home", "about", "works", "contact"],
     navigation: true,
     navigationPosition: "right",
-    navigationTooltips: ["Home", "About", "Works", "News", "Contact"],
+    navigationTooltips: ["Home", "About", "Works", "Contact"],
     responsiveWidth: 995,
     autoScrolling: true,
     scrollBar: false,
@@ -74,7 +43,7 @@ $(function () {
   // 5. owl carousel slider
   // 5.1. owl sections carousel slider
   $(
-    " #works-section-carousel, #news-section-carousel, #contact-section-carousel"
+    "#works-section-carousel, #news-section-carousel, #contact-section-carousel"
   ).owlCarousel({
     loop: true,
     center: false,
@@ -90,7 +59,6 @@ $(function () {
       "<i class='owl-custom ion-chevron-right'></i>",
     ],
   });
-  //#about-section-carousel
 
   $("#about-section-carousel ").owlCarousel({
     loop: false,
