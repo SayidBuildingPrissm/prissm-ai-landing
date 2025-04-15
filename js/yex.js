@@ -74,7 +74,7 @@ $(function () {
   // 5. owl carousel slider
   // 5.1. owl sections carousel slider
   $(
-    "#works-section-carousel, #news-section-carousel, #contact-section-carousel"
+    " #works-section-carousel, #news-section-carousel, #contact-section-carousel"
   ).owlCarousel({
     loop: true,
     center: false,
@@ -90,6 +90,24 @@ $(function () {
       "<i class='owl-custom ion-chevron-right'></i>",
     ],
   });
+  //#about-section-carousel
+
+  $("#about-section-carousel ").owlCarousel({
+    loop: false,
+    center: false,
+    items: 1,
+    margin: 0,
+    autoplay: false,
+    autoplaySpeed: 1000,
+    autoplayTimeout: 5000,
+    smartSpeed: 450,
+    nav: true,
+    navText: [
+      "<i class='owl-custom ion-chevron-left'></i>",
+      "<i class='owl-custom ion-chevron-right'></i>",
+    ],
+  });
+
   // 5.2. owl team carousel slider
   $("#owl-carousel-team").owlCarousel({
     loop: false,
